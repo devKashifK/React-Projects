@@ -1,0 +1,113 @@
+.HeaderContainer{
+    position: fixed;
+    width: 100%;
+}
+
+.topBar {
+    margin: 0;
+    text-align: center;
+    background: #0096ff;
+    color: #fff;
+    font-family: Roboto,sans-serif;
+    letter-spacing: .1px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: .25em;
+    font-size: .9em;
+    display: block;
+  }
+  a{
+    color: white;
+  }
+
+.header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 80px;
+  box-sizing: border-box;
+  background-color: #fff;
+box-shadow: 0 1px 1px #ccc;
+margin-bottom: 80px;
+}
+
+.leftSide {
+  display: flex;
+  width: 50%;
+  align-items: center;
+  gap: 60px;
+}
+.logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.logo h2 {
+  font-size: 2.1em;
+  margin-top: 0;
+  width: 130px;
+  color: #0084ff;
+  font-weight: 900;
+}
+
+.logo p {
+  font-size: 1em;
+  font-weight: 500;
+  font-style: italic;
+  font-stretch: normal;
+  line-height: 0.8;
+  letter-spacing: 0.9px;
+  color: #000;
+  margin-left: 02px;
+}
+
+.rightSide {
+  display: flex;
+  gap: 20px;
+  width: 40%;
+  text-align: left;
+}
+.selectCategory {
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: 0.9px;
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  
+}
+.text {
+  min-width: 23em;
+  opacity: 0.6;
+  font-family: Raleway, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: 0.4px;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.6);
+  margin-top: 0.5em;
+}
+button{
+    border: none;
+    outline: none;
+    width: 250px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin-right: 16px;
+    color: #fff;
+    font-size: 0.8em;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    background: linear-gradient(269deg, #0048ff, #0096ff);
+    font-family: "Raleway";
+}

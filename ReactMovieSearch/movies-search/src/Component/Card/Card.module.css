@@ -1,0 +1,27 @@
+.card {
+  box-shadow: 0 0 1em rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  height: 240px;
+  overflow: hidden;
+}
+.image {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+p {
+  font-size: 11px;
+  font-weight: normal;
+  font-feature-settings: "smcp";
+  font-variant: small-caps;
+  margin: 0;
+  padding: 10px 10px 10px 10px;
+  text-align: left;
+  transition: 250ms all linear;
+}
+.card:hover p {
+  font-size: 13px;
+  padding: 01px 10px 0 10px;
+  text-align: center;
+  transition: 250ms all linear;
+}

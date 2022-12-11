@@ -1,0 +1,44 @@
+
+.filter {
+  width: 70%;
+  margin: auto;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding-top: 10%;
+}
+.title {
+  font-size: 24px;
+  line-height: 30px;
+}
+.subtitle {
+  font-size: 14px;
+  font-weight: 600;
+  display: flex;
+  gap: 10px;
+}
+.filterCategory {
+  width: max-content;
+  font-size: 0.75em;
+  color: #0084ff;
+  padding: 6px 16px;
+  border-radius: 15px;
+  flex-shrink: 0;
+  border: 1px solid #0084ff;
+  transform: scale(1);
+}
+.filterCategory:hover{
+  transform: scale(0.9);
+  
+}
+.category_container {
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+.category_container>:first-child {
+  background-color: #0084ff;
+  color: white;
+}
